@@ -7,7 +7,6 @@ WITH CTE AS(
     left join {{ ref('daily_weather') }} w 
     on t.date_trip = w.daily_weather
 
-    order by TRIP_DATE desc
 )
 
 select *
