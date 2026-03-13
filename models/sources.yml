@@ -7,3 +7,8 @@ sources:
     tables:
       - name: bike
       - name: Weather
+
+  - name: cds_owner
+    schema: cds_owner
+    tables:
+      - name: cds_selectiontool_individuals
